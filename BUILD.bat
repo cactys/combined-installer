@@ -23,7 +23,7 @@ powershell -Command "if (-not (Get-Module -ListAvailable -Name ps2exe)) { Write-
 :: 2. Compile — используем абсолютные пути через %~dp0
 echo.
 echo [2/3] Compiling to EXE...
-powershell -Command "Invoke-ps2exe -InputFile '%~dp0CombinedInstaller.ps1' -OutputFile '%~dp0CombinedInstaller.exe' -RequireAdmin -NoConsole:$false -Title 'Combined Installer' -Description 'Corporate software installer' -Company 'Your Company' -Version '1.0.0' -Verbose"
+powershell -Command "Invoke-ps2exe -InputFile '%~dp0src/CombinedInstaller.ps1' -OutputFile '%~dp0CombinedInstaller.exe' -RequireAdmin -NoConsole:$false -Title 'Combined Installer' -Description 'Corporate software installer' -Company 'Your Company' -Version '1.0.0' -Verbose"
 
 :: 3. Check result
 echo.

@@ -209,3 +209,6 @@ signtool sign /a /fd SHA256 /tr http://timestamp.digicert.com /td SHA256 Combine
 1. Открой `Group Policy Management`
 2. Создай политику: `Computer Configuration → Windows Settings → Security Settings → Software Restriction Policies`
 3. Добавь путь к EXE в **Trusted Publishers** или **Additional Rules**
+
+### Debugging
+[ ] - выборочная загрузка не работает, загружает все файлы.
