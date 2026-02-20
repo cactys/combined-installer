@@ -1,0 +1,74 @@
+[
+    {
+        "name": "7-Zip 26.00 (64-bit)",
+        "file": "7zip/7z2600-x64.exe",
+        "args": "",
+        "silent": false,
+        "icon": "📦",
+        "desc": "Архиватор файлов для 64-битных систем"
+    },
+    {
+        "name": "AnyDesk",
+        "file": "AnyDesk.exe",
+        "args": "--install \"C:\\Program Files (x86)\\AnyDesk\" --start-with-windows --create-shortcuts",
+        "silent": true,
+        "icon": "🖥️",
+        "desc": "Удалённый доступ"
+    },
+    {
+        "name": "1С:Предприятие 8.3 (27.1859)",
+        "file": "windows64full_8_3_27_1859/setup.exe",
+        "args": "/S",
+        "silent": false,
+        "icon": "📊",
+        "desc": "1С:Предприятие 8.3"
+    },
+    {
+        "name": "KMS offline activator (64-bit)",
+        "file": "KMSOffline/KMSoffline_x64.exe",
+        "args": "",
+        "silent": false,
+        "icon": "🔧",
+        "desc": "Запустить программу в ручном режиме."
+    },
+    {
+        "name": "KMS offline activator (64-bit, активация Windows)",
+        "file": "KMSOffline/KMSoffline_x64.exe",
+        "args": "/win=act",
+        "silent": true,
+        "icon": "🔧",
+        "desc": "Запустить программу в скрытом режиме, активировать Windows и выйти из программы."
+    },
+    {
+        "name": "KMS offline activator (64-bit, активация Office)",
+        "file": "KMSOffline/KMSoffline_x64.exe",
+        "args": "/ofs=act",
+        "silent": true,
+        "icon": "🔧",
+        "desc": "Запустить программу в скрытом режиме, активировать Office и выйти из программы."
+    },
+    {
+        "name": "KMS offline activator (64-bit, без звука)",
+        "file": "KMSOffline/KMSoffline_x64.exe",
+        "args": "/nosound",
+        "silent": true,
+        "icon": "🔧",
+        "desc": "Запустить программу в скрытом режиме, активировать без звуковых эффектов."
+    },
+    {
+        "name": "Установщик Microsoft Office (64-bit)",
+        "file": "office/Office Installer+_x64.exe",
+        "args": "",
+        "silent": false,
+        "icon": "📝",
+        "desc": "Запустить установщик Microsoft Office в ручном режиме."
+    },
+    {
+        "name": "Установщик Microsoft Office (64-bit)",
+        "file": "office/Office Installer+_x64.exe",
+        "args": "/install",
+        "silent": true,
+        "icon": "📝",
+        "desc": "Запустить программу в скрытом режиме и выполнить установку Office с ранее настроенными параметрами (Office Installer+.ini)."
+    }
+]

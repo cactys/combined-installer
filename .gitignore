@@ -1,0 +1,34 @@
+# ============================================================
+#  .gitignore — Company Installer
+# ============================================================
+
+# --- Секретные переменные — НИКОГДА не коммитить! ---
+.env
+*.env
+.env.local
+.env.production
+.env.staging
+
+# --- Скомпилированный EXE (тяжёлый, не нужен в репо) ---
+*.exe
+# Если хочешь публиковать релизы — используй GitHub Releases / GitLab Releases,
+# а не коммит EXE в репозиторий.
+
+# --- Временные файлы установщика ---
+/temp/
+/tmp/
+install_log.txt
+
+# --- Windows ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- IDE и редакторы ---
+.vscode/
+.idea/
+*.suo
+*.user
+
+# --- PowerShell ---
+*.ps1.bak
